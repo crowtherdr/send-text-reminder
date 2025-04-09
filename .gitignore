@@ -21,5 +21,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-public/csv/cert_fname_phone.csv
-public/csv/cert_fname_phone_org.csv
+public/csv/*
