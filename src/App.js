@@ -5,12 +5,16 @@ const SmsSender = () => {
   const [contacts, setContacts] = useState([]);
   // eslint-disable-next-line no-multi-str
   const message = "Hi {name}, \n\
-This is a reminder that tonight at 7 p.m. we will continue our planning to prepare for our Lehi CERT Utah Great Shakeout event on the night of Wednesday, April 16th. Note: The Shake Out is on the 17th but we will hold our event the night before on the 16th.\n\
+This is a reminder that tonight at 7 p.m. we have our Lehi CERT Team mtg.\n\
 \n\
-This meeting will be held in person at Lehi Station #82 on 250 West 2600 North\n\
+This meeting will be held in person at Lehi Police Station Broadbent Room on 128 North 100 East\n\
 \n\
-The meeting will also be available with Microsoft Teams: \n\
-https://teams.microsoft.com/l/meetup-join/19%3aLzgLZXFNlwZKw1LUFdtxWV54KV5FzsK5-Cc5ZN1HN-I1%40thread.tacv2/1741460128183?context=%7b%22Tid%22%3a%221d19effd-6615-4b00-a2e1-fa79a5f92d32%22%2c%22Oid%22%3a%2261c6b800-44fc-4eb8-b01d-1addaf649dc1%22%7d\n\
+We will have an earthquake preparedness seminar\n\
+AFTER the seminar we will discuss our upcoming drill on April 16th\n\
+WHILE we are doing that, Steve Boyack will program anyone’s Baofeng radio\n\
+that wants our current CERT program list on their radio.\n\
+This will have all Lehi CERT frequencies, Lehi ARC, UCARC, UCARES frequencies as well (all told about 30 channels).\n\
+If you want this done, please respond to Steve's Slack thread in the discussion-general  channel with the model of your radio.\n\
 \n\
 Best regards—\n\
 David Crowther\n\
@@ -45,7 +49,7 @@ Lehi CERT Secretary";
     localStorage.setItem("sentContacts", JSON.stringify([...sentContacts, number]));
     setTimeout(() => {
       setContacts(updatedContacts);
-    }, 3000);
+    }, 1000);
   };
 
   const generateSmsLink = (number, name) => {
