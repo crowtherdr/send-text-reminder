@@ -3,6 +3,19 @@ import Papa from "papaparse";
 
 const SmsSender = () => {
   const [contacts, setContacts] = useState([]);
+
+// eslint-disable-next-line no-multi-str
+//   const message = "Hi {name}, \n\
+// This is a reminder that there will not be Lehi CERT leadership mtg in July.\n\
+// \n\
+// If you have any leadership business, post it in the Slack \"leadership\" channel.\n\
+// \n\
+// Please join us.\n\
+// \n\
+// Best regards—\n\
+// David Crowther\n\
+// Lehi CERT Secretary";
+
   // eslint-disable-next-line no-multi-str
 //   const message = "Hi {name}, \n\
 // This is a reminder that tonight night at 8 p.m. we have our Lehi CERT leadership mtg.\n\
@@ -15,24 +28,12 @@ const SmsSender = () => {
 // David Crowther\n\
 // Lehi CERT Secretary";
 // const csvFilePath = "/csv/cert_leaders_fname_phone.csv";
+
 // eslint-disable-next-line no-multi-str
-  const message = "Hi {name}, \n\
-This is a reminder that tonight at 7 p.m. we have our Lehi CERT Team mtg.\n\
+  const message = "September is National Preparedness Month. We will be talking about general preparedness and terrorism awareness.\n\
 \n\
-This meeting will be held in person at Lehi Fire Station #82 conference room on 250 W 2600 N\n\
+We hope to see you there!\n\
 \n\
-We plan on starting the Emergency Management Institute (EMI) online course IS-100.C: Introduction to the Incident Command System (ICS 100) together.\n\
-https://training.fema.gov/is/courseoverview.aspx?code=IS-100.c&lang=en\n\
-\n\
-The course is about 2 hours. We will do as much as we can together.\n\
-\n\
-Before Wednesday night, please create your own SID (Student ID) login: https://cdp.dhs.gov/femasid/register\n\
-\n\
-Please bring your own laptop so you can get credit for the course.\n\
-\n\
-Even if you have completed the course IS–100, we are going to review some other CERT business and hope you will still join us.\n\
-\n\
-Please join us as we each increase our capabilities and increase our team's capacity.\n\
 Best regards—\n\
 David Crowther\n\
 Lehi CERT Secretary";

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+PRODID:Calendar
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:cmd+shift+i
+SEQUENCE:0
+UID:20250908Z@default
+CLASS:PUBLIC
+DTSTART:20250911T010000Z
+DTEND:20250911T023000Z
+SUMMARY:Lehi CERT Team Meeting
+DESCRIPTION:September is National Preparedness Month. We will be talking about general preparedness and terrorism awareness. \nWe hope to see you there!
+LOCATION:Lehi Police Station Conference Room 128 North 100 East Lehi UT 84043
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
