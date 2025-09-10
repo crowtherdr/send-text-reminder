@@ -30,7 +30,12 @@ const SmsSender = () => {
 // const csvFilePath = "/csv/cert_leaders_fname_phone.csv";
 
 // eslint-disable-next-line no-multi-str
-  const message = "September is National Preparedness Month. We will be talking about general preparedness and terrorism awareness.\n\
+  const message = "Hi {name}, \n\
+This is a reminder that tonight at 7 p.m. we have our Lehi CERT Team mtg.\n\
+\n\
+This meeting will be held in person at Lehi Police Station conference room on 128 N 100 E\n\
+\n\
+September is National Preparedness Month. We will be talking about general preparedness and terrorism awareness.\n\
 \n\
 We hope to see you there!\n\
 \n\
