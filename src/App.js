@@ -17,32 +17,40 @@ const SmsSender = () => {
 // Lehi CERT Secretary";
 
   // eslint-disable-next-line no-multi-str
-//   const message = "Hi {name}, \n\
-// This is a reminder that tonight night at 8 p.m. we have our Lehi CERT leadership mtg.\n\
-// \n\
-// This meeting will be held on Teams: https://teams.microsoft.com/l/meetup-join/19%3ameeting_OTJhNmJmYmYtMDA1ZS00MDQ0LWJhZmMtNGI0MmJhNjM1YjI4%40thread.v2/0?context=%7b%22Tid%22%3a%221d19effd-6615-4b00-a2e1-fa79a5f92d32%22%2c%22Oid%22%3a%2261c6b800-44fc-4eb8-b01d-1addaf649dc1%22%7d\n\
-// \n\
-// Please join us.\n\
-// \n\
-// Best regards—\n\
-// David Crowther\n\
-// Lehi CERT Secretary";
-// const csvFilePath = "/csv/cert_leaders_fname_phone.csv";
-
-// eslint-disable-next-line no-multi-str
   const message = "Hi {name}, \n\
-This is a reminder that tonight at 7 p.m. we have our Lehi CERT Team mtg.\n\
+Our leadership meeting will be a bit different in October as it is the same evening as the Lehi Fire Department open house at Wines Park at 100 E 600 N St, Lehi, Utah. We will have a CERT booth there and need your help to staff the booth.\n\
 \n\
-This meeting will be held in person at Lehi Police Station conference room on 128 N 100 E\n\
+We would like to have 2 shifts from 3:30pm-5:15pm and 5:15p-7pm. That's 1.75 hours each. If you can come for only part of the time, that will also help. We need 3 people per shift.\n\
 \n\
-September is National Preparedness Month. We will be talking about general preparedness and terrorism awareness.\n\
+Here is a link to the signup sheet: https://docs.google.com/spreadsheets/d/1pzavmSE48MMrdG1sXdu1sDonHT9emOxifI5H2Fc8bkE/edit?usp=sharing\n\
 \n\
-We hope to see you there!\n\
+We will try to meet during the end of the first shift and the start of the 2nd shift, perhaps from 5pm-6pm.\n\
+\n\
+Send agenda items to Brian Sump, Steve Boyack, or me, or add them to the mtg announcement in the Slack #leadership channel: https://lehicert.slack.com/archives/C057EKUC2CE/p1758760068165199\n\
+\n\
+Please note that we just found out about this today. Please pardon any changes as we get closer to the event.\n\
+\n\
+Thank you.\n\
 \n\
 Best regards—\n\
 David Crowther\n\
 Lehi CERT Secretary";
-  const csvFilePath = "/csv/cert_fname_phone.csv";
+const csvFilePath = "/csv/cert_leaders_fname_phone.csv";
+
+// eslint-disable-next-line no-multi-str
+//   const message = "Hi {name}, \n\
+// This is a reminder that tonight at 7 p.m. we have our Lehi CERT Team mtg.\n\
+// \n\
+// This meeting will be held in person at Lehi Police Station conference room on 128 N 100 E\n\
+// \n\
+// September is National Preparedness Month. We will be talking about general preparedness and terrorism awareness.\n\
+// \n\
+// We hope to see you there!\n\
+// \n\
+// Best regards—\n\
+// David Crowther\n\
+// Lehi CERT Secretary";
+//   const csvFilePath = "/csv/cert_fname_phone.csv";
 
   useEffect(() => {
     const sentContacts = JSON.parse(localStorage.getItem("sentContacts")) || [];

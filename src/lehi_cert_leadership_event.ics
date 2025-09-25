@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+PRODID:Calendar
+VERSION:2.0
+BEGIN:VEVENT
+DTSTAMP:cmd+shift+i
+SEQUENCE:0
+UID:20250908Z@default
+CLASS:PUBLIC
+DTSTART:20251001T213000Z
+DTEND:20251002T010000Z
+SUMMARY:Lehi CERT Leadership Meeting
+DESCRIPTION:Our leadership meeting will be a bit different in October as it is the same evening as the Lehi Fire Department open house at Wines Park. We will have a CERT booth there and need your help to staff the booth.\n\nWe would like to have 2 shifts from 3:30pm-5:15pm and 5:15p-7pm. That's 1.75 hours each. If you can come for only part of the time, that will also help. We need 3 people per shift.\n\nHere is a link to the signup sheet: https://docs.google.com/spreadsheets/d/1pzavmSE48MMrdG1sXdu1sDonHT9emOxifI5H2Fc8bkE/edit?usp=sharing\n\nWe will try to meet during the end of the first shift and the start of the 2nd shift, perhaps from 5pm-6pm.\n\nSend agenda items to Brian Sump, Steve Boyack, or me, or add them to the mtg announcement in the Slack #leadership channel: https://lehicert.slack.com/archives/C057EKUC2CE/p1758760068165199\n\nPlease note that we just found out about this today. Please pardon any changes as we get closer to the event.
+LOCATION:Wines Park 100 East 600 North Street Lehi UT 84043
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
